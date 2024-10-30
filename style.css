@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{
+    background-color: purple;
+}
+
+#imagem{
+    background-image: url(./imagens/pexels-dinnow-86001860-9444476.jpg);
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+}
+
+#formulario{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+    right: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+#formulario input[type=password]{
+    float: right;
+    width: calc(100% - 40px);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#senha{
+    background-color: purple;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border: 1px solid purple;
+}
+
+#formulario input[type=submit]{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    color: aliceblue;
+    font-size: 1em;
+}
+
+#formulario input[type=email]{
+    float: right;
+    width: calc(100% - 40px);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#login{
+    margin-bottom: 5px;
+    background-color: purple;
+    border-radius: 8px;
+    border: 1px solid purple;
+}
+
+
+section{
+    position: relative;
+    width: 250px;
+    height: 515px;
+    left: 50vw;
+    top: 50vh;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+}
