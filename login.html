@@ -16,21 +16,18 @@
         <div id="formulario">
             <h1>Login</h1>
             <p>Seja bem-vindo novamente, Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-            <div id="login">
-
-                 <span class="material-symbols-outlined">person</span>
-
-                <input type="email" name="email" id="iemail">
-            </div>
-            <div id="senha">
-
-                <span class="material-symbols-outlined">key</span>
-
-                <input type="password" name="sen" id="isen">
-
-            </div>
-                <input type="submit" value="Entrar">
-        </div>
+            <form action="index.html" method="post">
+                <div id="login">
+                     <span class="material-symbols-outlined">person</span>
+                    <input type="email" name="email" id="iemail" required autocomplete="email">
+                </div>
+                <div id="senha">
+                    <span class="material-symbols-outlined">key</span>
+                    <input type="password" name="sen" id="isen" required minlength="8" autocomplete="current-password">
+                </div>
+                    <input type="submit" value="Entrar">
+                        </div>
+            </form>
     </section>
 </body>
 </html>
